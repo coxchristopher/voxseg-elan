@@ -2,8 +2,8 @@
 
 Voxseg-ELAN integrates the voice activity detection methods offered by
 [Voxseg](https://github.com/NickWilkinson37/voxseg) ([Wilkinson &
-Niesler 2021](https://arxiv.org/abs/2103.03529)) into [ELAN] 
-(https://tla.mpi.nl/tools/tla-tools/elan/), allowing users to apply
+Niesler 2021](https://arxiv.org/abs/2103.03529)) into 
+[ELAN](https://tla.mpi.nl/tools/tla-tools/elan/), allowing users to apply
 voice activity detection to multimedia sources linked to ELAN transcripts
 directly from within ELAN's user interface.
 
@@ -30,8 +30,8 @@ Python packages, all of which should be installed in a virtual environment:
 
 Under macOS 12.6, the following commands can be used to fetch and install the
 necessary Python packages:
-
-```git clone https://github.com/coxchristopher/voxseg-elan
+```
+git clone https://github.com/coxchristopher/voxseg-elan
 cd voxseg-elan
 
 python3 -m virtualenv venv-voxseg
